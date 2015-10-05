@@ -1,0 +1,32 @@
+/* 
+    Created on : 6 Οκτ 2015, 12:47:38 πμ
+    Author     : Alexander Patras
+*/
+
+
+body {
+    background-color: #d4d4d4;
+}
+h2 {
+    margin-top: 5px;
+}
+
+.header {
+    margin-top: 100px;
+}
+
+.row {
+    background-color: #fff;
+}
+
+.photo-col {
+    margin-top: 75px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .photo {
+        max-width: 131px;
+    }
+}
