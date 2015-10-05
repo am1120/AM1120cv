@@ -4,9 +4,12 @@
 */
 
 
+/* Background Color */
 body {
     background-color: #d4d4d4;
 }
+
+/* Small adjusments to elements */
 h2 {
     margin-top: 5px;
 }
@@ -15,16 +18,18 @@ h2 {
     margin-top: 100px;
 }
 
+/* Color of each panel - row */
 .row {
     background-color: #fff;
 }
 
+/* Photo horizontal alignment */
 .photo-col {
     margin-top: 75px;
 }
 
 
-
+/* Photo Fix for screens under 991px */
 @media screen and (max-width: 991px) {
     .photo {
         max-width: 131px;
